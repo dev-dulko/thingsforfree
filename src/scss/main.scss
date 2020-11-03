@@ -1,0 +1,12 @@
+@import "reset.scss";
+@import "notFound.scss";
+@import "./settings/fonts.scss";
+@import "./settings/colors.scss";
+
+body {
+  font-family: $font-base;
+  h1 {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
