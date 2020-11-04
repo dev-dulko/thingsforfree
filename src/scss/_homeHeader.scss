@@ -1,0 +1,12 @@
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  .homeHeader__image {
+    position: absolute;
+    left: -25vw;
+  }
+  .homeHeader__sideRight {
+    padding-right: 10vw;
+  }
+}

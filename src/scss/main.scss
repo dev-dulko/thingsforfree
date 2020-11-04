@@ -1,12 +1,19 @@
-@import "reset.scss";
-@import "notFound.scss";
+// settings
 @import "./settings/fonts.scss";
 @import "./settings/colors.scss";
 
+//header
+@import "homeHeader.scss";
+@import "homeLogin.scss";
+@import "title.scss";
+@import "home.scss";
+@import "homeNav.scss";
+@import "twoBoxes.scss";
+
+@import "reset.scss";
+@import "notFound.scss";
+
 body {
   font-family: $font-base;
-  h1 {
-    padding-top: 20px;
-    text-align: center;
-  }
+  box-sizing: border-box;
 }

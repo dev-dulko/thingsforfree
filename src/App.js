@@ -1,6 +1,6 @@
 import React from "react";
 
-import Home from "./components/Home/Home";
+import Home from "./components/Home";
 import Form from "./components/Form";
 import Login from "./components/Login";
 import Register from "./components/Register";

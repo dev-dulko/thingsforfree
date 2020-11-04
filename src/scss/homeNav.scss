@@ -1,0 +1,17 @@
+.homeNav {
+  margin-top: 35px;
+  display: flex;
+  li {
+    margin-left: 15px;
+    padding: 9px 20px 9px 20px;
+    &:hover {
+      border: 0.75px solid $nav-color;
+    }
+    a {
+      font-size: 18px;
+      outline: none;
+      color: $nav-color;
+      text-decoration: none;
+    }
+  }
+}
