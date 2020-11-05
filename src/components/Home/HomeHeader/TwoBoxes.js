@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function TwoBoxes() {
+function TwoBoxes({ isLogin }) {
+  const LinktoSite = isLogin ? "./oddaj-rzeczy" : "./logowanie";
+
   return (
     <div className="twoBoxes">
-      <div>
-        <span>Oddaj Rzeczy</span>
-      </div>
+      <Link to={LinktoSite}>
+        <div>
+          <span>Oddaj Rzeczy</span>
+        </div>
+      </Link>
 
       <div>
         <span>Zorganizuj zbiórkę</span>

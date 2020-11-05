@@ -1,15 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function HomeLogin() {
   return (
     <div className="homeLogin">
       <span>
-        {/* Link do componentu Login */}
-        <a href="#">Zaloguj</a>
+        <Link to="/logowanie">Zaloguj</Link>
       </span>
       <span>
-        {/* Link do componentu Logout */}
-        <a href="#">Załóż konto</a>
+        <Link to="/rejestracja">Załóż konto</Link>
       </span>
     </div>
   );

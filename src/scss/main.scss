@@ -10,8 +10,14 @@
 @import "homeNav.scss";
 @import "twoBoxes.scss";
 
+//threeColumns
+@import "threeColumns.scss";
+
 @import "reset.scss";
 @import "notFound.scss";
+
+//Login
+@import "login.scss";
 
 body {
   font-family: $font-base;

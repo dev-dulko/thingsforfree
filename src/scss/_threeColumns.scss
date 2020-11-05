@@ -1,0 +1,9 @@
+.threeColumns {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../assets/3-Columns-Background.png");
+  height: 30vh;
+  div {
+    width: 334px;
+  }
+}

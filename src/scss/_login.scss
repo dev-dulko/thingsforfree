@@ -1,0 +1,20 @@
+.login {
+  text-align: center;
+  .login__title {
+    h2 {
+      font-size: 40px;
+      margin-bottom: 25px;
+      color: $nav-color;
+      line-height: 55px;
+    }
+    .login__decoration {
+      width: 253px;
+    }
+  }
+  .login__form {
+    background-color: $form-color;
+    width: 384px;
+    height: 235px;
+    margin: 0 auto;
+  }
+}

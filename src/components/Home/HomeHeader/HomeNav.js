@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function HomeNav() {
   return (
     <ul className="homeNav">
       <li>
-        <a href="#">Start</a>
+        <Link to="/">Start</Link>
       </li>
       <li>
         <a href="#">O co chodzi?</a>

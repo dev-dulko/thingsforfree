@@ -5,7 +5,7 @@ import TwoBoxes from "./TwoBoxes";
 import Title from "./Title";
 import headerPhoto from "../../../assets/Home-Hero-Image.jpg";
 
-export default function HomeHeader() {
+export default function HomeHeader({ isLogin }) {
   return (
     <div className="homeHeader">
       <div className="homeHeader__sideLeft">
@@ -19,7 +19,7 @@ export default function HomeHeader() {
         <HomeLogin />
         <HomeNav />
         <Title />
-        <TwoBoxes />
+        <TwoBoxes isLogin={isLogin} />
       </div>
     </div>
   );
