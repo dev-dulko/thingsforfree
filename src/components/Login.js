@@ -7,7 +7,7 @@ function Login() {
   return (
     <div className="login">
       <HomeLogin />
-      <HomeNav />
+      {/* <HomeNav /> */}
       <div className="login__title">
         <h2>Zaloguj się</h2>
         <div>
