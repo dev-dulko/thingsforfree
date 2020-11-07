@@ -1,55 +1,28 @@
-// .login {
-//   .login__nav {
-//     padding-right: 10vw;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: flex-end;
-//   }
-//   text-align: center;
-//   .login__title {
-//     h2 {
-//       font-size: 40px;
-//       margin-bottom: 25px;
-//       color: $nav-color;
-//       line-height: 55px;
-//     }
-//     .login__decoration {
-//       width: 253px;
-//     }
-//   }
-//   .login__form {
-//     background-color: $form-color;
-//     width: 384px;
-//     height: 235px;
-//     margin: 0 auto;
-//   }
-// }
-
-.login {
-  .login__nav {
+.register {
+  .register__nav {
     padding-right: 10vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
   text-align: center;
-  .login__title {
+  .register__title {
     h2 {
       font-size: 40px;
       margin: 125px 0 25px 0;
       color: $nav-color;
       line-height: 55px;
     }
-    .login__decoration {
+    .register__decoration {
       width: 250px;
       margin-bottom: 60px;
     }
   }
-  .login__form {
+  .register__form {
     width: 500px;
     height: 235px;
     margin: 0 auto;
-    .login__form__input {
+    .register__form__input {
       margin: 0 auto;
       width: 384px;
       padding: 20px 0;
@@ -76,7 +49,7 @@
         }
       }
     }
-    .login__button {
+    .register__button {
       margin-top: 30px;
       display: flex;
       justify-content: space-between;

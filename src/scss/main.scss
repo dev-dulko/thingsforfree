@@ -1,14 +1,16 @@
+// home
+@import "home.scss";
+
 // settings
 @import "./settings/fonts.scss";
 @import "./settings/colors.scss";
 
 //header
-@import "homeHeader.scss";
-@import "homeLogin.scss";
-@import "title.scss";
-@import "home.scss";
-@import "homeNav.scss";
-@import "twoBoxes.scss";
+@import "./header/homeHeader";
+@import "./header/homeLogin";
+@import "./header/title";
+@import "./header/homeNav";
+@import "./header/twoBoxes";
 
 //threeColumns
 @import "threeColumns.scss";
@@ -18,6 +20,9 @@
 
 //Login
 @import "login.scss";
+
+//register
+@import "register.scss";
 
 body {
   font-family: $font-base;
