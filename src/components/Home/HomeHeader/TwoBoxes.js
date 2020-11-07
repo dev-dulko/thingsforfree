@@ -6,7 +6,7 @@ function TwoBoxes({ isLogin }) {
 
   return (
     <div className="twoBoxes">
-      <Link to={LinktoSite}>
+      <Link to={LinktoSite} style={{ textDecoration: "none" }}>
         <div>
           <span>Oddaj Rzeczy</span>
         </div>

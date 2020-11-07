@@ -1,30 +1,3 @@
-// .login {
-//   .login__nav {
-//     padding-right: 10vw;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: flex-end;
-//   }
-//   text-align: center;
-//   .login__title {
-//     h2 {
-//       font-size: 40px;
-//       margin-bottom: 25px;
-//       color: $nav-color;
-//       line-height: 55px;
-//     }
-//     .login__decoration {
-//       width: 253px;
-//     }
-//   }
-//   .login__form {
-//     background-color: $form-color;
-//     width: 384px;
-//     height: 235px;
-//     margin: 0 auto;
-//   }
-// }
-
 .login {
   .login__nav {
     padding-right: 10vw;
@@ -42,13 +15,15 @@
     }
     .login__decoration {
       width: 250px;
-      margin-bottom: 60px;
+      padding-bottom: 60px;
     }
   }
   .login__form {
+    padding-bottom: 300px;
     width: 500px;
     height: 235px;
     margin: 0 auto;
+
     .login__form__input {
       margin: 0 auto;
       width: 384px;

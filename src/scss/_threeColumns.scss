@@ -2,8 +2,26 @@
   display: flex;
   justify-content: space-around;
   background-image: url("../assets/3-Columns-Background.png");
-  height: 30vh;
+  height: 100%;
   div {
     width: 334px;
+    p {
+      color: $nav-color;
+      text-align: center;
+      &:first-child {
+        padding: 40px 0 10px 0;
+        font-size: 90px;
+        font-weight: 300;
+        color: $columns-color;
+      }
+      &:nth-child(2) {
+        font-size: 18px;
+        padding-bottom: 28px;
+      }
+      &:last-child {
+        font-family: $font-alt;
+        padding-bottom: 86px;
+      }
+    }
   }
 }

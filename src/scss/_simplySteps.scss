@@ -1,0 +1,39 @@
+.simplySteps {
+  text-align: center;
+  h2 {
+    padding: 55px 0 25px 0;
+    font-size: 38px;
+    line-height: 55px;
+    color: $nav-color;
+  }
+  &__icon {
+    margin-top: 34px;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $form-color;
+    div {
+      width: 130px;
+      &:last-child {
+        width: 160px;
+      }
+      &:first-child {
+        padding-left: 10vw;
+      }
+      &:last-child {
+        padding-right: 10vw;
+      }
+    }
+    div p {
+      &:nth-last-of-type(2) {
+        font-size: 18px;
+        padding: 8px 0 10px 0;
+      }
+      &:last-of-type {
+        border-top: 1px solid black;
+        padding-top: 10px;
+        font-size: 16px;
+      }
+    }
+  }
+}

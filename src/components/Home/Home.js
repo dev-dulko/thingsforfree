@@ -13,7 +13,7 @@ export default function Home() {
     <div className="home">
       <HomeHeader isLogin={isLogin} />
       <ThreeColumns />
-      {/* <SimplySteps /> */}
+      <SimplySteps />
       {/* <AboutUs /> */}
       {/* <WhoHelp /> */}
       {/* <Footer /> */}

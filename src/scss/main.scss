@@ -1,3 +1,7 @@
+//general
+@import "reset.scss";
+@import "notFound.scss";
+
 // home
 @import "home.scss";
 
@@ -15,14 +19,14 @@
 //threeColumns
 @import "threeColumns.scss";
 
-@import "reset.scss";
-@import "notFound.scss";
-
 //Login
 @import "login.scss";
 
 //register
 @import "register.scss";
+
+//simplySteps
+@import "simplySteps.scss";
 
 body {
   font-family: $font-base;
